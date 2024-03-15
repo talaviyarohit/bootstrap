@@ -1,0 +1,29 @@
+:root{
+    --max-width :350px;
+}
+body{
+    font-family: sans-serif;
+}
+.main{
+    height:100vh;
+    
+}
+.left-side{
+    width:var(--max-width);
+    height: 100vh;
+}
+.right-side{
+    /* margin-left: calc(100% - var(--max-width)); */
+    width: calc(100% - var(--max-width));
+    margin-left: var(--max-width);
+    padding-left: 20px;
+}
+.menu {
+    height: 80px;
+}
+.font-size{
+    font-size: 100px;
+}
+.pick{
+    padding: 10px 20px;
+}
